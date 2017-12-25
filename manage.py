@@ -8,4 +8,4 @@ app = Flask(__name__)
 def index():
     return 'index'
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
